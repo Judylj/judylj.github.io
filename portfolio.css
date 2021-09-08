@@ -1,0 +1,160 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	  background-color:#ffffff;
+}
+.text-over-img {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1.5rem;
+	justify-items:center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+}
+
+
+ul {
+	display: flex;
+	font-family: helvetica;
+	justify-content: space-between;
+	color: #DBD3E4;
+}	
+
+button {
+  background-color: #FFFFFF;
+  color: #DBD3E4;
+  border: 2px solid #DBD3E4; 
+  border-radius: 12px;
+}
+
+.project-button {
+  background-color: #DBD3E4;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF; 
+  border-radius: 80px;
+}
+
+
+.text-over-img img, .text-over-img p, .text-over-img h5 {
+	grid-column: 1 / -1;
+	grid-row: 1 / -1;
+}
+
+
+.text-over-img img {
+	width: 100%;
+}
+
+.text-over-img p {
+	color: #FFFFFF;
+	font-size:90px;
+	font-family:helvetica;
+}
+
+.text-over-img h5 {
+	color: #DBD3E4;
+	letter-spacing: 7px;
+	font-family: helvetica;
+}
+
+.about-me {
+	display: flex;
+	justify-content: space-around;
+	font-family: helvetica;
+	color: #FFFFFF;
+	background-color: #DBD3E4; 
+	padding: 20px;
+	font-size: 20px;
+}
+
+.about-me p , h2 {
+	line-height: 200%;
+}
+
+.about-me img {
+	height: 8em;
+	padding: 0 5em;
+	border-radius: 50%;
+}
+
+.portfolio-images {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	height: 25rem;
+	background-color: #DBD3E4;
+}
+
+
+.portfolio-description {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	
+	background-color: #DBD3E4;
+}
+
+.portfolio-item { 
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 1rem;
+	justify-items: center;
+	align-items: center;
+	
+}
+
+
+.portfolio-item img {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	margin-top: 80px;
+}
+
+.portfolio-item p {
+	grid-column: 2/3;
+	color: #FFFFFF;
+}
+
+.portfolio-item button {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.contact-me {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	background-image: url(images/grad-background-green.jpg);
+}
+
+.contact-me p {
+	grid-column: 1/2;
+	grid-row: 1/-1;
+	color: #FFFFFF;
+}
+
+.contact-me ul {
+	display: flex;
+	flex-direction: column;
+	grid-column: 2/3;
+	grid-row: 1/-1;
+}
+
+.contact-me li {
+	font-size: 2rem;
+	padding: 0.5rem 0;
+	
+}
+
+
+
+
+
