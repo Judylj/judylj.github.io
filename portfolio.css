@@ -8,7 +8,7 @@
 }
 
 body {
-	  background-color:#ffffff;
+	background-color: #FFFFFF;
 }
 .text-over-img {
 	display: grid;
@@ -58,19 +58,19 @@ button {
 .text-over-img p {
 	color: #FFFFFF;
 	font-size:100px;
-	font-family:helvetica;
+	font-family: Helvetica, sans-serif;
 }
 
 .text-over-img h5 {
 	color: #DBD3E4;
 	letter-spacing: 7px;
-	font-family: helvetica;
+	font-family: Helvetica, sans-serif;
 }
 
 .about-me {
 	display: flex;
 	justify-content: space-around;
-	font-family: helvetica;
+	font-family: Helvetica, sans-serif;
 	color: #FFFFFF;
 	background-color: #DBD3E4; 
 	padding: 1rem;
@@ -98,17 +98,14 @@ button {
 	display: flex;
 	justify-content: space-between;
 	padding: 10px;
-/*	height: 25rem;*/
 	margin-top: 2rem;
 	background-color: #DBD3E4;
 }
-
 
 .portfolio-description {
 	display: flex;
 	justify-content: space-between;
 	padding: 10px;
-	
 	background-color: #DBD3E4;
 }
 
@@ -126,18 +123,13 @@ button {
 	width: 100%;
 	height: auto;
 	border-radius: 50%;
-	
-}
-
-.portfolio-item p {
-	grid-column: 2/3;
-	color: #FFFFFF;
-	padding: 15px;
 }
 
 .portfolio-item button {
 	grid-column: 1/2;
 	grid-row: 1/2;
+	color: #FFFFFF;
+	padding: 15px;
 }
 
 .contact-me {
@@ -224,7 +216,3 @@ button:hover {
 	  grid-row: 3/4;
   }
 }
-
-
-
-
